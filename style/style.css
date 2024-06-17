@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('fonts/Helvetica.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'HelveticaBold';
+    src: url('fonts/Helvetica-Bold.ttf') format('ttf');
+    }
+
+@font-face {
+    font-family: 'KiwiSoda';
+    src: url('fonts/KiwiSoda.woff') format('woff');
+    }
+
+body { 
+  font-family: sans-serif;
+    background: url('../images/interface/fond.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+/*________________LOGO________________*/
+#logo{
+  color: #FF8327;
+  text-decoration: none;
+  font-size: 95px;
+  font-family: KiwiSoda;
+  width: 700px;
+  margin: 5px auto;
+  padding-top: 20px;
+  text-align: center;
+  text-shadow: 3px 3px 0px #DB4E00;
+
+}
+#logo a{
+  color: #FF8327;
+  text-decoration: none;
+}
+
+
+#sous-logo{
+  width: 600px;
+  margin: 5px auto;
+  text-align: center;
+}
+/*________________CAROUSEL________________*/
+
+.gallery {
+
+  height: 500px;
+  width: 800px;
+  margin: auto;
+  position: relative;
+  top: 40%;
+  transform: translateY(-60%);
+}
+
+.gallery-cell {
+  width: 45%;
+  height: 500px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-around;
+  transition: 0.5s ease all;
+}
+
+.gallery-cell:hover{
+  transform: scale(1.1);
+}
+
+/*________________FLECHES CAROUSEL________________*/
+
+.flickity-prev-next-button.previous {
+    background-image: url('images/interface/flechegauche.png');
+}
+
+.flickity-prev-next-button.next {
+    background-image: url('images/interface/flechedroit.png');
+}
+/*________________PAGES PROJETS________________*/
+.zoneprojet{
+  width: 650px;
+  margin: 100px auto;
+}
+.zoneimages{
+  width: 650px;
+  margin: 0px auto;
+  display: felx;
+}
+.zoneimages img{
+  padding-top:10px;
+}
+
+h3{
+  font-family:  pf-pixelscript;
+  font-size: 40px;
+}
+h4{
+  background-color: yellow;
+  font-family: Helvetica;
+  font-weight: bold;
+  border: solid yellow 3px;
+}
+iframe{
+  padding-top: 10px;
+}
+/*________________PAGE cONTACT________________*/
+.zonecontact{
+  width: 650px;
+  margin: 200px auto;
+  text-align: center;
+
+
+}
+.zonecontact p{
+  background-color: yellow;
+  padding: 10px;
+
+}
+.zonecontact p:hover{
+   color: #FF8327;
+}
+
+.zonecontact a{
+  text-decoration: none;
+  color: black;
+}
+
+
+/*________________PAGE A PROPOS________________*/
+.zoneapropos{
+  width: 650px;
+  margin: 200px auto;
+}
+.zonecontact p{
+  background-color: yellow;
+  padding: 10px;
+}
+#cv {
+  color: yellow;
+}
+
+/*________________CREDIT________________*/
+#credit{
+  bottom: 80px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#credit p {
+  text-align: center;
+  width: 300px;
+}
+/*________________SOUS MENU PROJETS_______________*/
+
+
+#projets ul{
+  position: absolute;
+  display: flex;
+  top: -80px;
+  left: calc(50vw - 300px);
+  width: 700px;
+} 
+
+#projets img{
+  width: 60px;
+  height: auto;
+  border: solid yellow 3px;
+
+}
+
+#projets ul li {
+  margin-right: 30px;
+  transition: 0.5s ease all;
+}
+
+#projets ul li:hover {
+  transform: scale(1.5);
+}
+
+
+/*________________FOOTER________________*/
+
+footer{
+  background-color: yellow;
+  font-family: pf-pixelscript;
+  position: fixed;
+  bottom: 0px;
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  font-size:30px;
+  padding: 10px;
+}
+
+footer a{
+  color: black;
+  text-decoration: none;
+
+}
+footer a:hover{
+  color: #FF8327;
+}
+
+footer p:hover{
+  color: #FF8327;
+}
+#apropos {
+  padding-right: 20px;
+
+}
