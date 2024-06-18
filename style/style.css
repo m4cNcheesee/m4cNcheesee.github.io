@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Helvetica';
-    src: url('fonts/Helvetica.woff') format('woff');
+    src: url('font/Helvetica.woff') format('woff');
     }
 
 @font-face {
     font-family: 'HelveticaBold';
-    src: url('fonts/Helvetica-Bold.ttf') format('ttf');
+    src: url('font/Helvetica-Bold.ttf') format('ttf');
     }
 
 @font-face {
     font-family: 'KiwiSoda';
-    src: url('fonts/KiwiSoda.woff') format('woff');
+    src: url('font/KiwiSoda.woff') format('woff');
     }
 
 body { 
