@@ -19,7 +19,6 @@ body {
   background-size: cover;
 }
 
-
 /*________________LOGO________________*/
 #logo{
   color: #FF8327;
@@ -74,6 +73,7 @@ body {
   width: 650px;
   margin: 100px auto;
 }
+
 .zoneimages{
   width: 650px;
   margin: 0px auto;
