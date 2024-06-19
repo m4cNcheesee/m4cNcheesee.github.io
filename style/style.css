@@ -23,21 +23,14 @@ body {
 /*________________LOGO________________*/
 #logo{
   color: #FF8327;
-  text-decoration: none;
-  font-size: 95px;
-  font-family: KiwiSoda;
-  width: 700px;
+  width: 600px;
   margin: 5px auto;
   padding-top: 20px;
-  text-align: center;
-  text-shadow: 3px 3px 0px #DB4E00;
 
 }
-#logo a{
-  color: #FF8327;
-  text-decoration: none;
+#logo img{
+  width: 100%;
 }
-
 
 #sous-logo{
   width: 600px;
@@ -50,10 +43,8 @@ body {
 
   height: 500px;
   width: 800px;
-  margin: auto;
+  margin:100px auto;
   position: relative;
-  top: 40%;
-  transform: translateY(-60%);
 }
 
 .gallery-cell {
